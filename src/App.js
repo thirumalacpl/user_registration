@@ -9,7 +9,10 @@ import "bootstrap/dist/js/bootstrap.bundle.min";
 function App() {
   return (
     <div>
-      <ul
+      <h3>FirstPage</h3>
+      <Link to="/secondPage"><h3>SecondPage</h3></Link> 
+      <h3>ThirdPage</h3>
+      {/* <ul
         className="nav nav-pills nav-fill gap-2 p-1 small bg-primary rounded-5 shadow-sm"
         id="pillNav2"
         role="tablist"
@@ -50,7 +53,7 @@ function App() {
             third
           </button>
         </li>
-      </ul>
+      </ul> */}
 
       <AppRoutes />
     </div>
