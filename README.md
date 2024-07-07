@@ -2,6 +2,12 @@
 
 
 
+project details
+cmds to view version
+npm view react version ---> 18.3.1
+npm view router version ---> 1.3.8
+
+
 
 
 
