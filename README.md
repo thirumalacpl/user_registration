@@ -2,6 +2,12 @@
 
 
 
+
+Hooks
+
+useNavigate - pass value using router
+
+
 project details
 cmds to view version
 npm view react version ---> 18.3.1

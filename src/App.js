@@ -2,15 +2,20 @@ import logo from "./logo.svg";
 import "./App.css";
 import AppRoutes from "./Routes";
 import { Link } from "react-router-dom";
+import { useEffect, useState } from "react"
 
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
 
+
 function App() {
+ 
+
   return (
     <div>
-      <h3>FirstPage</h3>
-      <Link to="/secondPage"><h3>SecondPage</h3></Link> 
+     
+      <h3>Home page</h3>
+      <Link to="/secondPage" ><h3>SecondPage</h3></Link> 
       <h3>ThirdPage</h3>
       {/* <ul
         className="nav nav-pills nav-fill gap-2 p-1 small bg-primary rounded-5 shadow-sm"
