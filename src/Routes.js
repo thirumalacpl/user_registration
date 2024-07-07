@@ -5,12 +5,10 @@ import SecondPage from "./Pages/secondPage";
 
 const AppRoutes = () => {
   return (
-    <Router>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/secondPage" element={<SecondPage />} />
-      </Routes>
-    </Router>
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/secondPage" element={<SecondPage />} />
+    </Routes>
   );
 };
 
