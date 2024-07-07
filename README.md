@@ -1,6 +1,17 @@
 
 
 
+
+
+
+
+router installation
+https://reactrouter.com/en/main/start/tutorial --- > npm install react-router-dom
+
+Bootstrap installation
+https://getbootstrap.com/
+
+
 reference website link
 https://newmembersignup-dev.solaireresort.com/new-signup?regSource=OP
 
